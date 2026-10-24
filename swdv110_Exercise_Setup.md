@@ -66,6 +66,17 @@ my-exercise/                  <- open THIS folder in VS Code
             └── edu/cwi/swdv110/<topic>/   <- provided JUnit tests
                 └── SomethingTest.java
 ```
+contact-cleaner/
+├── pom.xml
+├── contacts.txt
+└── src/
+├── main/java/edu/cwi/swdv110/contacts/
+│ ├── App.java
+│ ├── Contact.java
+│ ├── ContactParser.java
+│ └── ContactReport.java
+└── test/java/edu/cwi/swdv110/contacts/
+└── ContactParserTest.jav
 
 The folders under `src/main/java` must match the `package` line at the top of each `.java` file. For example, `package edu.cwi.swdv110.contacts;` goes in `src/main/java/edu/cwi/swdv110/contacts/`.
 

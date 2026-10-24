@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: edu.cwi.swdv110.contacts.ContactParserTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 3, Errors: 9, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! -- in edu.cwi.swdv110.contacts.ContactParserTest
+edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsBlankName -- Time elapsed: 0.035 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsBlankName(ContactParserTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.parseLine(ContactParser.java:184)
+	at edu.cwi.swdv110.contacts.ContactParserTest.lambda$1(ContactParserTest.java:131)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+edu.cwi.swdv110.contacts.ContactParserTest.parseLineKeepsBadPhoneAsInvalid -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method phone() is undefined for the type Contact
+	The method email() is undefined for the type Contact
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineKeepsBadPhoneAsInvalid(ContactParserTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.reportHasHeaderRowsAndTotals -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method of(E, E) in the type List is not applicable for the arguments (Contact, Contact)
+	The constructor Contact(String, String, String) is undefined
+	The constructor Contact(String, String, String) is undefined
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.reportHasHeaderRowsAndTotals(ContactParserTest.java:137)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.normalizeEmail -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.normalizeEmail(ContactParser.java:141)
+	at edu.cwi.swdv110.contacts.ContactParserTest.normalizeEmail(ContactParserTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.maskEmail -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.maskEmail(ContactParser.java:151)
+	at edu.cwi.swdv110.contacts.ContactParserTest.maskEmail(ContactParserTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneInvalid -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneInvalid(ContactParserTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneVariousStyles -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneVariousStyles(ContactParserTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.makeUsername -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.makeUsername(ContactParser.java:172)
+	at edu.cwi.swdv110.contacts.ContactParserTest.makeUsername(ContactParserTest.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneDropsLeadingOne -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneDropsLeadingOne(ContactParserTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsWrongFieldCount -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsWrongFieldCount(ContactParserTest.java:124)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.parseLine(ContactParser.java:184)
+	at edu.cwi.swdv110.contacts.ContactParserTest.lambda$0(ContactParserTest.java:125)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+edu.cwi.swdv110.contacts.ContactParserTest.parseLineCleansEveryField -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor Contact(String, String, String) is undefined
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineCleansEveryField(ContactParserTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+edu.cwi.swdv110.contacts.ContactParserTest.validEmails -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at edu.cwi.swdv110.contacts.ContactParserTest.validEmails(ContactParserTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

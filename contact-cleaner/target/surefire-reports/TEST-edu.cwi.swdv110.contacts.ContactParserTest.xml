@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="edu.cwi.swdv110.contacts.ContactParserTest" time="0.084" tests="20" errors="9" skipped="0" failures="3" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Brady\Documents\SWDV-110\contact-cleaner\target\test-classes;C:\Users\Brady\Documents\SWDV-110\contact-cleaner\target\classes;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter\5.14.4\junit-jupiter-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.14.4\junit-jupiter-api-5.14.4.jar;C:\Users\Brady\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Brady\.m2\repository\org\junit\platform\junit-platform-commons\1.14.4\junit-platform-commons-1.14.4.jar;C:\Users\Brady\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.14.4\junit-jupiter-params-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.14.4\junit-jupiter-engine-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\platform\junit-platform-engine\1.14.4\junit-platform-engine-1.14.4.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Brady\AppData\Local\Temp\surefire3540659933260163927\surefirebooter-20261023204148357_3.jar C:\Users\Brady\AppData\Local\Temp\surefire3540659933260163927 2026-10-23T20-41-48_259-jvmRun1 surefire-20261023204148357_1tmp surefire_0-20261023204148357_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Brady\Documents\SWDV-110\contact-cleaner\target\test-classes;C:\Users\Brady\Documents\SWDV-110\contact-cleaner\target\classes;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter\5.14.4\junit-jupiter-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.14.4\junit-jupiter-api-5.14.4.jar;C:\Users\Brady\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Brady\.m2\repository\org\junit\platform\junit-platform-commons\1.14.4\junit-platform-commons-1.14.4.jar;C:\Users\Brady\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.14.4\junit-jupiter-params-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.14.4\junit-jupiter-engine-5.14.4.jar;C:\Users\Brady\.m2\repository\org\junit\platform\junit-platform-engine\1.14.4\junit-platform-engine-1.14.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Brady"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Brady\Documents\SWDV-110\contact-cleaner"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Brady\AppData\Local\Temp\surefire3540659933260163927\surefirebooter-20261023204148357_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.2+10-55"/>
+    <property name="user.name" value="Brady"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Brady\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Brady\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.2"/>
+    <property name="user.dir" value="C:\Users\Brady\Documents\SWDV-110\contact-cleaner"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\Brady\AppData\Local\Microsoft\WindowsApps;C:\Users\Brady\AppData\Local\GitHubDesktop\bin;C:\Users\Brady\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Brady\.dotnet\tools;C:\Program Files\Maven\apache-maven-3.10.0\bin;C:\Users\Brady\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;;c:\Users\Brady\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.2+10-55"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="parseLineRejectsBlankName" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.035">
+    <failure message="Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsBlankName(ContactParserTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.parseLine(ContactParser.java:184)
+	at edu.cwi.swdv110.contacts.ContactParserTest.lambda$1(ContactParserTest.java:131)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+]]></failure>
+  </testcase>
+  <testcase name="normalizeNameBlank" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="invalidEmails" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="parseLineKeepsBadPhoneAsInvalid" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="Unresolved compilation problems: &#10;	The method phone() is undefined for the type Contact&#10;	The method email() is undefined for the type Contact&#10;" type="java.lang.Error"><![CDATA[java.lang.Error: 
+Unresolved compilation problems: 
+	The method phone() is undefined for the type Contact
+	The method email() is undefined for the type Contact
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineKeepsBadPhoneAsInvalid(ContactParserTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="titleCaseSimpleWord" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="reportHasHeaderRowsAndTotals" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="Unresolved compilation problems: &#10;	The method of(E, E) in the type List is not applicable for the arguments (Contact, Contact)&#10;	The constructor Contact(String, String, String) is undefined&#10;	The constructor Contact(String, String, String) is undefined&#10;" type="java.lang.Error"><![CDATA[java.lang.Error: 
+Unresolved compilation problems: 
+	The method of(E, E) in the type List is not applicable for the arguments (Contact, Contact)
+	The constructor Contact(String, String, String) is undefined
+	The constructor Contact(String, String, String) is undefined
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.reportHasHeaderRowsAndTotals(ContactParserTest.java:137)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="normalizeNameCollapsesSpaces" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="normalizeNameMultiWordLastName" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.002"/>
+  <testcase name="normalizeEmail" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.normalizeEmail(ContactParser.java:141)
+	at edu.cwi.swdv110.contacts.ContactParserTest.normalizeEmail(ContactParserTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="maskEmail" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.maskEmail(ContactParser.java:151)
+	at edu.cwi.swdv110.contacts.ContactParserTest.maskEmail(ContactParserTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="formatPhoneInvalid" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneInvalid(ContactParserTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="formatPhoneVariousStyles" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneVariousStyles(ContactParserTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="makeUsername" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.makeUsername(ContactParser.java:172)
+	at edu.cwi.swdv110.contacts.ContactParserTest.makeUsername(ContactParserTest.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="formatPhoneDropsLeadingOne" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.formatPhone(ContactParser.java:161)
+	at edu.cwi.swdv110.contacts.ContactParserTest.formatPhoneDropsLeadingOne(ContactParserTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="parseLineRejectsWrongFieldCount" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <failure message="Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineRejectsWrongFieldCount(ContactParserTest.java:124)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at edu.cwi.swdv110.contacts.ContactParser.parseLine(ContactParser.java:184)
+	at edu.cwi.swdv110.contacts.ContactParserTest.lambda$0(ContactParserTest.java:125)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+]]></failure>
+  </testcase>
+  <testcase name="parseLineCleansEveryField" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <error message="Unresolved compilation problem: &#10;	The constructor Contact(String, String, String) is undefined&#10;" type="java.lang.Error"><![CDATA[java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor Contact(String, String, String) is undefined
+
+	at edu.cwi.swdv110.contacts.ContactParserTest.parseLineCleansEveryField(ContactParserTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="titleCaseHyphenatedWord" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="normalizeNameReordersLastFirst" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="titleCaseEmpty" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001"/>
+  <testcase name="validEmails" classname="edu.cwi.swdv110.contacts.ContactParserTest" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at edu.cwi.swdv110.contacts.ContactParserTest.validEmails(ContactParserTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></failure>
+  </testcase>
+</testsuite>
